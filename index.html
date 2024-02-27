@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="add.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>window</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Модальное окно</h1>
+        <button id="open_modal_btn">Открыть окно</button>
+    </div>
+    <div class="modal" id="my_modal">
+        <div class="modal_box">
+            <dutton class="btn1" id="close_my_modal_btn">X</dutton>
+            <div class="text1">Need any assistanse?</div>
+            <div class="text2">Fill in the form and our manager will contact you</div>
+            
+            <div class="forms">
+                <div class="forms1">
+                    <div class="text3">Name</div>
+                    <div class="input-field">
+                    <input class="text5" type="text" name="inputText" style="color: #fff;" placeholder="Ellias">
+                    </div>
+                </div>
+                <div class="forms1">
+                    <div class="text3">E-mail</div>
+                    <div class="input-field">
+                        <input class="text6" type="text" name="inputText" style="color: #fff;" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="forms1">
+                    <div class="text4">Phone</div>
+                    <div class="input-field">
+                        <input class="text7" type="text" name="inputText" style="color: #fff;" placeholder="Enter your phone">
+                    </div>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="text9">Message </div>
+                <input class="text10" type="text" name="inputText" style="color: #fff;" placeholder="Enter your message">
+            </div>
+            <div class="finesh">
+                <div class="btn2">Send request</div>
+            </div>
+            <div class="futr">By clicking the "Send request" button, you agree with the <span>‘Terms and Conditions of use’</span></div>
+        </div>
+    </div>
+</body>
+<script defer src="add.js"></script>
+</html>
